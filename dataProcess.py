@@ -12,7 +12,7 @@ videoList = []
 isOfficeList = []
 
 for i in result:
-    if 'video' not in result[i]:
+    if 'video' not in result[i] or result[i]['video'] == 0:
         continue
     fanList.append(result[i]['fan'])
     viewList.append(result[i]['view'])

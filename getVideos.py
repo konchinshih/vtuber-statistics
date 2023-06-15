@@ -1,6 +1,5 @@
 import requests, random, re, time, json
 from bs4 import BeautifulSoup as bs
-from selenium import webdriver
 import pandas as pd
 
 user_agents_list = open("user-agent.txt", 'r').read().split('\n')[:-1]
